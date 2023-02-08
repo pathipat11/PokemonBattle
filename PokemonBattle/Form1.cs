@@ -65,6 +65,9 @@ namespace PokemonBattle
             this.tbHPMon.Text = this.monster.takeDamage(damage).ToString();
 
             //display data
+
+            int damage2 = this.selectedPokemon.getDefense() - this.monster.getAttack();
+            this.tbHP.Text = this.selectedPokemon.takeDamage(damage2).ToString();
         }
 
     }
