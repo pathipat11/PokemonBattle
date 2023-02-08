@@ -63,26 +63,6 @@ namespace PokemonBattle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _000 {
-            get {
-                object obj = ResourceManager.GetObject("000", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _001 {
-            get {
-                object obj = ResourceManager.GetObject("001", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _006 {
             get {
                 object obj = ResourceManager.GetObject("006", resourceCulture);
@@ -96,6 +76,16 @@ namespace PokemonBattle.Properties {
         internal static System.Drawing.Bitmap _025 {
             get {
                 object obj = ResourceManager.GetObject("025", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _150 {
+            get {
+                object obj = ResourceManager.GetObject("150", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +126,16 @@ namespace PokemonBattle.Properties {
         internal static System.Drawing.Bitmap d843okx_eb13e8e4_0fa4_4fa9_968a_e0f36ff168de {
             get {
                 object obj = ResourceManager.GetObject("d843okx-eb13e8e4-0fa4-4fa9-968a-e0f36ff168de", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap meme_cat {
+            get {
+                object obj = ResourceManager.GetObject("meme-cat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

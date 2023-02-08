@@ -56,7 +56,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::PokemonBattle.Properties.Resources._172;
+            this.pictureBox1.Image = global::PokemonBattle.Properties.Resources.meme_cat;
             this.pictureBox1.Location = new System.Drawing.Point(12, 279);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(190, 170);
@@ -122,7 +122,6 @@
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "My Pokemon";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // groupBox2
             // 
@@ -137,7 +136,6 @@
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Command";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // button5
             // 
@@ -148,7 +146,6 @@
             this.button5.TabIndex = 3;
             this.button5.Text = "HP + 50";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Attack
             // 
@@ -170,7 +167,6 @@
             this.button8.TabIndex = 4;
             this.button8.Text = "Defense + 50";
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // label1
             // 
@@ -182,7 +178,6 @@
             this.label1.Size = new System.Drawing.Size(61, 25);
             this.label1.TabIndex = 8;
             this.label1.Text = "Name";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -195,7 +190,6 @@
             this.label2.Size = new System.Drawing.Size(36, 25);
             this.label2.TabIndex = 9;
             this.label2.Text = "HP";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // tbName
             // 
@@ -204,6 +198,7 @@
             this.tbName.Name = "tbName";
             this.tbName.Size = new System.Drawing.Size(165, 31);
             this.tbName.TabIndex = 10;
+            this.tbName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tbHP
             // 
@@ -212,11 +207,12 @@
             this.tbHP.Name = "tbHP";
             this.tbHP.Size = new System.Drawing.Size(165, 31);
             this.tbHP.TabIndex = 11;
+            this.tbHP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::PokemonBattle.Properties.Resources._006;
+            this.pictureBox2.Image = global::PokemonBattle.Properties.Resources._150;
             this.pictureBox2.Location = new System.Drawing.Point(589, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(190, 170);
@@ -227,20 +223,20 @@
             // tbHPMon
             // 
             this.tbHPMon.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.tbHPMon.Location = new System.Drawing.Point(404, 53);
+            this.tbHPMon.Location = new System.Drawing.Point(403, 49);
             this.tbHPMon.Name = "tbHPMon";
             this.tbHPMon.Size = new System.Drawing.Size(165, 31);
             this.tbHPMon.TabIndex = 16;
-            this.tbHPMon.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.tbHPMon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // tbNameMon
             // 
             this.tbNameMon.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.tbNameMon.Location = new System.Drawing.Point(404, 16);
+            this.tbNameMon.Location = new System.Drawing.Point(403, 12);
             this.tbNameMon.Name = "tbNameMon";
             this.tbNameMon.Size = new System.Drawing.Size(165, 31);
             this.tbNameMon.TabIndex = 15;
-            this.tbNameMon.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.tbNameMon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -248,24 +244,22 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(332, 56);
+            this.label3.Location = new System.Drawing.Point(331, 52);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 25);
             this.label3.TabIndex = 14;
             this.label3.Text = "HP";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(332, 19);
+            this.label4.Location = new System.Drawing.Point(331, 15);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 25);
             this.label4.TabIndex = 13;
             this.label4.Text = "Name";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Form1
             // 

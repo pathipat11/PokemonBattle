@@ -17,7 +17,7 @@ namespace PokemonBattle
             pokemons.Add(new Froakie());
             pokemons.Add(new Greninja());
 
-            this.monster = new Charizard();
+            this.monster = new Mewtwo();
             this.pictureBox2.Image = this.monster.getImage();
             this.tbNameMon.Text = this.monster.getName();
             this.tbHPMon.Text = this.monster.getHP().ToString();
@@ -67,55 +67,6 @@ namespace PokemonBattle
             //display data
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 
 }

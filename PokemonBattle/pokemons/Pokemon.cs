@@ -30,7 +30,7 @@ namespace PokemonBattle.pokemons
 
         public int takeDamage(int damage)
         {
-            this.HP -= damage;
+            this.HP = this.HP - Math.Abs(damage);
             return this.HP;
         }
     }
