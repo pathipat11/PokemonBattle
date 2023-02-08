@@ -28,9 +28,10 @@ namespace PokemonBattle.pokemons
         
         public int getDefense() { return this.Defense; }
 
-        public void takeDamage(int damage)
+        public int takeDamage(int damage)
         {
-            this.HP = this.HP - damage;
+            this.HP -= damage;
+            return this.HP;
         }
     }
 }
