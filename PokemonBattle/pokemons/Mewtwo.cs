@@ -13,7 +13,7 @@ namespace PokemonBattle.pokemons
             this.name = "Mewtwo";
             Random random = new Random();
             //random number between >= 200 and <295
-            this.HP = random.Next(1000, 2000);
+            this.HP = random.Next(2000, 2500);
             this._image = Properties.Resources._150;
             this.Attack = random.Next(202, 350);
             this.Defense = random.Next(166, 306);

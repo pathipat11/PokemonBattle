@@ -35,9 +35,9 @@
             this.Greninja = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnPlusHP50 = new System.Windows.Forms.Button();
             this.Attack = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnDefHP50 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tbName = new System.Windows.Forms.TextBox();
@@ -126,9 +126,9 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.Controls.Add(this.button5);
+            this.groupBox2.Controls.Add(this.btnPlusHP50);
             this.groupBox2.Controls.Add(this.Attack);
-            this.groupBox2.Controls.Add(this.button8);
+            this.groupBox2.Controls.Add(this.btnDefHP50);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox2.Location = new System.Drawing.Point(580, 279);
             this.groupBox2.Name = "groupBox2";
@@ -137,15 +137,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Command";
             // 
-            // button5
+            // btnPlusHP50
             // 
-            this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(30, 80);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(147, 34);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "HP + 50";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnPlusHP50.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnPlusHP50.Location = new System.Drawing.Point(30, 80);
+            this.btnPlusHP50.Name = "btnPlusHP50";
+            this.btnPlusHP50.Size = new System.Drawing.Size(147, 34);
+            this.btnPlusHP50.TabIndex = 3;
+            this.btnPlusHP50.Text = "HP + 50";
+            this.btnPlusHP50.UseVisualStyleBackColor = true;
+            this.btnPlusHP50.Click += new System.EventHandler(this.button5_Click);
             // 
             // Attack
             // 
@@ -158,15 +159,16 @@
             this.Attack.UseVisualStyleBackColor = true;
             this.Attack.Click += new System.EventHandler(this.Attack_Click);
             // 
-            // button8
+            // btnDefHP50
             // 
-            this.button8.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button8.Location = new System.Drawing.Point(30, 120);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(147, 34);
-            this.button8.TabIndex = 4;
-            this.button8.Text = "Defense + 50";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnDefHP50.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnDefHP50.Location = new System.Drawing.Point(30, 120);
+            this.btnDefHP50.Name = "btnDefHP50";
+            this.btnDefHP50.Size = new System.Drawing.Size(147, 34);
+            this.btnDefHP50.TabIndex = 4;
+            this.btnDefHP50.Text = "Defense + 50";
+            this.btnDefHP50.UseVisualStyleBackColor = true;
+            this.btnDefHP50.Click += new System.EventHandler(this.button8_Click);
             // 
             // label1
             // 
@@ -300,9 +302,9 @@
         private Button Greninja;
         private GroupBox groupBox1;
         private GroupBox groupBox2;
-        private Button button5;
+        private Button btnPlusHP50;
         private Button Attack;
-        private Button button8;
+        private Button btnDefHP50;
         private Label label1;
         private Label label2;
         private TextBox tbName;
