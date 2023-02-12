@@ -90,30 +90,26 @@ namespace PokemonBattle
                 this.selectedPokemon.takeDamage(monster);
                 this.tbHP.Text = this.selectedPokemon.getHP().ToString();
             }
-            hit++;
 
+            hit++;
             if (pokemons[0].getHP() <= 0)
             {
-                MessageBox.Show("Pokemon has died, please replace it with a new one.");
                 Pichu.Enabled = false;
 
 
             }
             if (pokemons[1].getHP() <= 0)
             {
-                MessageBox.Show("Pokemon has died, please replace it with a new one.");
                 Pikachu.Enabled = false;
 
             }
             if (pokemons[2].getHP() <= 0)
             {
-                MessageBox.Show("Pokemon has died, please replace it with a new one.");
                 Froakie.Enabled = false;
                 
             }
             if (pokemons[3].getHP() <= 0)
             {
-                MessageBox.Show("Pokemon has died, please replace it with a new one.");
                 Greninja.Enabled = false;
 
             }

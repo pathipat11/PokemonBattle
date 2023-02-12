@@ -1,24 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="PokemonBattle.Pokemon.Charmander" Collapsed="true">
-    <Position X="0.5" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Pokemon\Charmander.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="PokemonBattle.pokemons.Pichu" Collapsed="true">
-    <Position X="2.75" Y="1.75" Width="1.5" />
+  <Class Name="PokemonBattle.pokemons.Pichu">
+    <Position X="6.5" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>pokemons\Pichu.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="PokemonBattle.pokemons.Pokemon" Collapsed="true">
-    <Position X="1.75" Y="0.5" Width="1.5" />
+  <Class Name="PokemonBattle.pokemons.Pokemon">
+    <Position X="4.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAgAAAAAAAAAAAACBAAAAABQIAEQACAAAAEAkAAAAA=</HashCode>
+      <HashCode>AAAgAAAEAAAAAAAQCBAAAAABQIAEQACAAAAEAkAAAAA=</HashCode>
       <FileName>pokemons\Pokemon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonBattle.pokemons.Froakie">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pokemons\Froakie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonBattle.pokemons.Greninja">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pokemons\Greninja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonBattle.pokemons.Mewtwo">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pokemons\Mewtwo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonBattle.pokemons.Pikachu">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pokemons\Pikachu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonBattle.Form1">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQBCgACAGBhAAAACDAEASAIAABEAAgHAMAAJAEMA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonBattle.Properties.Resources">
+    <Position X="11" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggAAAAAAAAAAAAAAAABEAgAFQAAACAAAAAgAQAAAIA=</HashCode>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
